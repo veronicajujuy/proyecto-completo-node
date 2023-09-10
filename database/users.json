@@ -398,5 +398,29 @@
     "password": "nU0%?40bpKcC",
     "country": "Indonesia",
     "avatar": "default.png"
+  },
+  {
+    "id": 51,
+    "fullName": "Veronica Valdez",
+    "email": "veronica.jujuy@gmail.com",
+    "password": "$2a$10$/60AMlv1wR6uuECZxO2NcOr6DBs.TsPVFKhtw2qLrwwiSWyc1AzBe",
+    "country": "Argentina",
+    "avatar": "1694029253344_img.jpg"
+  },
+  {
+    "id": 52,
+    "fullName": "Veronica Valdez",
+    "email": "veronica.jujuy3@gmail.com",
+    "password": "$2a$10$NLQwUTYAbg9ERMvgvCXCK.S5kWnnel8XECtCZOBvyqOUd6U9sJTWa",
+    "country": "Argentina",
+    "avatar": "1694029291904_img.png"
+  },
+  {
+    "id": 53,
+    "fullName": "Veronica Valdez",
+    "email": "vjujuy@gmail.com",
+    "password": "$2a$10$8qXNrDLKgPXtkbtlmM.1Me388rLcj2juplT6Wf8zJk9XoJfj8apDm",
+    "country": "Argentina",
+    "avatar": "1694029824770_img.jpg"
   }
 ]
