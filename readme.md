@@ -1,5 +1,7 @@
 # LOGIN y Hash de password
 
+El presente proyecto esta basado en el proyecto de DH realizado por Javi Herrera.
+
 ## guardar la password en un hash
 
 1.  Instalacion de libreria bcryptjs
