@@ -161,13 +161,13 @@ loginProcess: (req, res) => {
 
     Ahora para ver mi usuario logueado puedo pasarle los datos del login a la vista:
 
-    ```js
+```js
     profile: (req, res) => {
         return res.render("userProfile", {
         user: req.session.userLogged,
         });
     },
-    ```
+```
 
 y cambio en la vista las variables para poder ver el usuario logueado
 
@@ -259,9 +259,9 @@ Una cookie es información que se va a guardar del lado del navegador.
 Ejemplo:
 SETEAR UNA COOKIE: Cuando voy a setear una cookie, tengo que setearla utilizando la propiedad de **res**. En el caso siguiente estoy seteando la cookie llamada "testing", que tiene el valor "hola mundo!" y que dura 3 segundos.
 
-    ```js
+ ```js
     res.cookie("testing", "Hola mundo!", { maxAge: 1000 * 30 });
-    ```
+ ```
 
 LEER UNA COOKIE: Mientras que cuando voy a leerla tengo que buscar el objeto cookies que me llega desde **req**. Y cuando voy a leerlas es cookies (varias), mientras al setearla es cookie (una sola)
 
@@ -330,13 +330,13 @@ console.log(req.cookies.testing);
 5.  Destruccion de la cookie:
     La cookie va a vivir el tiempo que le especifiquemos.. pero si queremos desloguearnos, no vamos a poder hacer esto. Para ello en el proceso de logout, debemos destruir la cookie:
 
-        ```js
+    ```js
         logout: (req, res) => {
             // para borrar la cookie
             res.clearCookie("userEmail");
             req.session.destroy();
             res.redirect("/");
         },
-        ```
+   ```
 
     De esta manera ya podremos desloguearnos.
